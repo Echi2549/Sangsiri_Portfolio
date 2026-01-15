@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goragod Wiriya - Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="light-mode">
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>Sanegsiri<span>.dev</span></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home" class="active">หน้าแรก</a></li>
+          <li><a href="#about">เกี่ยวกับ</a></li>
+          <li><a href="#skills">ทักษะ</a></li>
+          <li><a href="#showcase">วิดีโอ</a></li>
+          <li><a href="#projects">โปรเจกต์</a></li>
+          <li><a href="#contact">ติดต่อ</a></li>
+        </ul>
+      </nav>
+      <div class="theme-toggle">
+        <button id="theme-toggle-btn">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+        </button>
+      </div>
+      <div class="menu-toggle">
+        <button id="menu-toggle-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>สวัสดีครับกระผมชื่อ <span>แสงสิฬิ กรรมสิทธิ์</span></h2>
+          <h3>นักพัฒนา PHP & JavaScript </h3>
+          <p>เป็นนักศึกษาวิชาชีพชั้นสูงชั้นปีที่ 1 มาจากสาขาเทคโนโลยีสารสนเทศ</p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">ดูผลงาน</a>
+            <a href="#contact" class="btn btn-outline">ติดต่อ</a>
+          </div>
+          <div class="social-links">
+            
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/myprofiles.jpg" alt="Goragod Wiriya">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">เกี่ยวกับฉัน</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>กระผมเป็นนักศึกษาจากวิทยาลัยเทคโนโลยีพายัพและบริหารธุรกิจ</p>
+            <p>กระผมมีความเชี่ยวชาญในการพัฒนาเว็บแอปพลิเคชันแบบ Full Stack โดยใช้ PHP และ JavaScript รวมถึงการออกแบบ UI/UX ที่เน้นความเรียบง่ายและใช้งานได้จริง</p>
+            <div class="about-info">
+              <div class="info-item">
+                <h4>ประสบการณ์:</h4>
+                <p>3 เดือน</p>
+              </div>
+              <div class="info-item">
+                <h4>งานปัจจุบัน:</h4>
+                <p>นักพัฒนา PHP & JavaScript</p>
+              </div>
+              <div class="info-item">
+                <h4>การศึกษา:</h4>
+                <p>วิทยาการคอมพิวเตอร์</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">ทักษะและความเชี่ยวชาญ</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>การพัฒนาเว็บแอปพลิเคชัน</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-php"></i></div>
+                <h4>PHP</h4>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 95%;"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                <h4>JavaScript</h4>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 90%;"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                <h4>HTML5</h4>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 90%;"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                <h4>CSS3</h4>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 85%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>เครื่องมือและเทคโนโลยี</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <h4>MySQL</h4>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 90%;"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                <h4>Git</h4>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 85%;"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fas fa-server"></i></div>
+                <h4>Linux Server</h4>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 80%;"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-icon"><i class="fas fa-paint-brush"></i></div>
+                <h4>UI/UX Design</h4>
+                <div class="skill-progress">
+                  <div class="progress" style="width: 75%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="showcase" class="showcase">
+      <div class="container">
+        <h2 class="section-title">โปรเจกต์</h2>
+        <div class="video-container">
+          <video id="showcase-video" controls>
+            <source src="videos/Video.mp4" type="video/mp4">
+            เบราว์เซอร์ของคุณไม่รองรับการเล่นวิดีโอ
+          </video>
+          <div class="video-description">
+            <h3>การนำเสนอผลงาน</h3>
+            <p>วิดีโอนี้แสดงโปรแจคเกี่ยวกับการสร้างเกมชื่อว่า เกมเกษตรสุข (How To Farm) เกมนี้สร้างมาเพื่อการเรียนรู้ด้านการเกษตรเพื่อให้คนในปัจบันเลี้ยงปากเลี้ยงท้องได้
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">กิจกรรมที่โดดเด่น</h2>
+        <div class="projects-filter">
+          <button class="filter-btn active" data-filter="all">ทั้งหมด</button>
+          <button class="filter-btn" data-filter="framework">Sprotday</button>
+          <button class="filter-btn" data-filter="webapp">Web App</button>
+          <button class="filter-btn" data-filter="other">อื่นๆ</button>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card" data-category="framework">
+            <div class="project-img">
+              <img src="images/led.jpg" alt="Kotchasan Framework">
+            </div>
+            <div class="project-content">
+              <h3>Sprotday</h3>
+              <p>กิจกรรมกีฬาสีที่เป็ฯเชียร์หลีดเดอร์</p>
+              <div class="project-tags">
+              </div>
+              <div class="project-links">
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="webapp">
+            <div class="project-img">
+              <img src="images/family.jpg" alt="Inventory System">
+            </div>
+            <div class="project-content">
+              <h3>family day</h3>
+              <p>เป็นกิจกรรมกรชับความสัมพันธ์ระวางพี่และน้อง</p>
+              <div class="project-tags">
+              </div>
+              <div class="project-links">
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="webapp">
+            <div class="project-img">
+              <img src="images/CSS.jpg" alt="Booking System">
+            </div>
+            <div class="project-content">
+              <h3>สอบ CEFR</h3>
+              <p>มาตรฐานสากลที่ใช้อธิบายระดับความสามารถทางภาษา</p>
+              <div class="project-tags">
+              </div>
+              <div class="project-links">
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="other">
+            <div class="project-img">
+              <img src="images/END.jpg" alt="GCMS">
+            </div>
+            <div class="project-content">
+              <h3>กิจกรรมทัศณะศึกษา</h3>
+              <p>เป็นกิจกรรมที่นำผู้เรียนออกไปเรียนรู้นอกห้องเรียน เพื่อเปิดประสบการณ์ตรง สัมผัสของจริง เชื่อมโยงความรู้จากในห้องเรียน และพัฒนาทักษะชีวิต</p>
+              <div class="project-tags">
+              </div>
+              <div class="project-links">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">ติดต่อฉัน</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h3>อีเมล</h3>
+                <p>liw.aeiou@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i  class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="contact-text">
+                <h3>facebook</h3>
+                <p><a href="https://www.facebook.com/lew.eiji.2024" target="_blank">lew.eiji.com</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div class="contact-text">
+                <h3>เว็บไซต์</h3>
+                <p><a href="https://www.payaptechno.ac.th/?fbclid=IwY2xjawPMGQ9leHRuA2FlbQIxMABicmlkETFvUG9qcHVrUlE1SDJlSXFXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHkH4RuysOvOqJoeW21cQl8419drjOG-XGTSETYEkjWVRIdBwmyqIEeeTJlZy_aem_gw_eTpXJjMhqwWgYlbaW1A" target="_blank">Payap.com</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">ชื่อ</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">อีเมล</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="subject">หัวข้อ</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message">ข้อความ</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">ส่งข้อความ</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Sanegsiri<span>.dev</span></h2>
+          <p>นักพัฒนา PHP & JavaScript</p>
+        </div>
+        <div class="footer-social">
+          <a href="lew.eiji.2024" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.payaptechno.ac.th/?fbclid=IwY2xjawPMGQ9leHRuA2FlbQIxMABicmlkETFvUG9qcHVrUlE1SDJlSXFXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHkH4RuysOvOqJoeW21cQl8419drjOG-XGTSETYEkjWVRIdBwmyqIEeeTJlZy_aem_gw_eTpXJjMhqwWgYlbaW1A" target="_blank"><i class="fas fa-globe"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
